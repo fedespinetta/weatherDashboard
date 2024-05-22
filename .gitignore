@@ -1,0 +1,26 @@
+# Exclude all files
+*
+
+# Include specific files and folders
+!.gitignore
+!.husky/
+!.prettierignore
+!.prettierrc
+!.sf/
+!README.md
+!config/
+!force-app/
+!jest.config.js
+!package.json
+!scripts/
+!sfdx-project.json
+
+# Exclude specific file types in specific directories (example)
+config/*.log
+scripts/*.log
+
+# Exclude node_modules and other common directories
+node_modules/
+.sfdx/
+.vscode/
+.DS_Store
