@@ -15,12 +15,3 @@
 !scripts/
 !sfdx-project.json
 
-# Exclude specific file types in specific directories (example)
-config/*.log
-scripts/*.log
-
-# Exclude node_modules and other common directories
-node_modules/
-.sfdx/
-.vscode/
-.DS_Store
